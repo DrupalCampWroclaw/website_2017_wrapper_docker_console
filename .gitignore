@@ -1,0 +1,9 @@
+.idea
+/app
+/app_databases/*
+!/app_databases/README.txt
+/app_files/*
+!/app_files/README.txt
+/app_data/*
+!/app_data/README.txt
+*.pyc
