@@ -1,5 +1,5 @@
 web:
-  image: droptica/apache-php:php5-v1.2
+  image: droptica/apache-php:xdebug-php5-v1.2
   volumes:
     - ./app/app:/var/www/html
     - ./docker/custom_config/php.ini:/usr/local/etc/php/conf.d/php.ini:ro # enable xdebug
